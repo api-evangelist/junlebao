@@ -1,7 +1,28 @@
 aid: junlebao
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/junlebao.png
 name: Junlebao
-description: 'Junlebao is a company surfaced as a portfolio company of hongshan and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Junlebao Dairy Group (Shijiazhuang Junlebao Dairy Co., Ltd., 君乐宝乳业)
+  is one of China''s largest dairy processors, founded in 1995 and headquartered in
+  Shijiazhuang, Hebei Province. Its business spans the full dairy value chain: infant
+  and toddler formula, low-temperature (chilled) yogurt, room-temperature liquid milk,
+  fresh milk, cheese and dairy-farming/animal-husbandry operations. Junlebao is the
+  largest dairy company in Hebei and ranks among China''s top dairy producers, leading
+  domestic infant-formula sales volume and holding a top position in low-temperature
+  yogurt. It was surfaced in the API Evangelist network as a portfolio company of Hongshan
+  (HSG). As a consumer packaged-goods / food manufacturer it publishes no public developer
+  program, API, or open-data surface; this profile tracks its corporate web presence
+  and company identity.'
 url: https://raw.githubusercontent.com/api-evangelist/junlebao/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,13 +32,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Dairy
+- Food and Beverage
+- Infant Formula
+- Yogurt
+- Manufacturing
+- China
 apis: []
+common:
+- type: Website
+  url: https://en.junlebaoruye.com/
+- type: Website
+  name: Junlebao (Chinese)
+  url: https://www.junlebaoruye.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
